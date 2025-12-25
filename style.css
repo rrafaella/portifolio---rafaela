@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #F7F4F2;
+  color: #3A2E2A;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 6px;
+}
+
+.cargo {
+  color: #B08968;
+  font-weight: 500;
+}
+
+.bio {
+  max-width: 600px;
+  margin: 20px auto;
+  color: #6F5F57;
+}
+
+/* SECTIONS */
+.section {
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 20px;
+  background: #B08968;
+  color: white;
+  text-decoration: none;
+  border-radius: 14px;
+}
+
+/* TECH */
+.tech {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.tech li {
+  background: #E6D9CF;
+  padding: 8px 14px;
+  border-radius: 12px;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 26px;
+  }
+}
+
